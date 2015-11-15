@@ -1,0 +1,21 @@
+{
+  "name": "myMailTest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./schedule.js"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "debug": "~2.2.0",
+    "log4js": "^0.6.27",
+    "moment": "^2.10.6",
+    "morgan": "~1.6.1",
+    "mysql": "^2.9.0",
+    "node-schedule": "^0.5.1",
+    "nodemailer": "^1.10.0"
+  }
+}
